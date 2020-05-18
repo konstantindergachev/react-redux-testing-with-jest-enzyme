@@ -1,0 +1,13 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.main {
+  margin: 20px auto -80px;
+  outline: 1px dashed #ffffff;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: '. headline headline headline .' '. . btn . .' 'post post post post post';
+}

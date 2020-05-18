@@ -1,0 +1,14 @@
+.headline {
+  grid-area: headline;
+  align-self: center;
+  justify-self: center;
+  outline: 1px dashed #fff;
+  text-align: center;
+  &__title {
+    text-transform: uppercase;
+  }
+  &__description {
+    text-indent: 15px;
+    text-align: justify;
+  }
+}

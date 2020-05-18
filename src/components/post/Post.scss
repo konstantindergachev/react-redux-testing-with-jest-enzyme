@@ -1,0 +1,20 @@
+.post {
+  max-width: 300px;
+  padding: 10px;
+  outline: 1px solid #b1b1b1;
+  margin-bottom: 10px;
+  &__wrapper {
+    grid-area: post;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__body {
+    text-align: justify;
+    text-indent: 15px;
+  }
+}
